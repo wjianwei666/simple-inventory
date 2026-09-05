@@ -1,0 +1,33 @@
+{
+  "name": "simple-inventory",
+  "version": "1.0.0",
+  "description": "简仓 StockLite — 可商用的单体库存管理系统",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "build": "node scripts/build.js"
+  },
+  "keywords": [
+    "inventory",
+    "stock",
+    "warehouse",
+    "express",
+    "sqlite"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.24.4"
+  }
+}
